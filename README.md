@@ -1,10 +1,6 @@
 # CampusMarket
 
 <p align="center">
-  <img src="docs/assets/readme/hero-banner.svg" alt="CampusMarket hero banner" width="100%" />
-</p>
-
-<p align="center">
   <strong>CampusMarket</strong> is the GitHub repository for <strong>UniKart</strong>, a campus-first commerce platform built for SRM KTR students to buy, sell, rent, compare, message, negotiate, schedule meetups, and transact with more structure than informal resale groups.
 </p>
 
@@ -35,19 +31,41 @@ If the goal is to present this as a major engineering project, the strongest ang
 - Uses graceful fallback behavior for AI and campus routing when provider credentials are unavailable
 - Structured as a real multi-surface product, not a single-demo page or isolated CRUD assignment
 
-## Visual Overview
+## Application Preview
 
-<p align="center">
-  <img src="docs/assets/readme/transaction-workflow.svg" alt="CampusMarket transaction workflow" width="100%" />
-</p>
+Screens below are captured from the actual application UI.
 
-This workflow is the heart of the product:
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/dashboard.jpg" alt="CampusMarket dashboard screenshot" width="100%" />
+      <br />
+      <strong>Dashboard</strong>
+      <br />
+      Buyer, seller, and admin workspaces collapse current state into one role-aware overview.
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/marketplace.jpg" alt="CampusMarket marketplace screenshot" width="100%" />
+      <br />
+      <strong>Marketplace</strong>
+      <br />
+      Discovery includes saved searches, compare queues, intent browsing, and listing-first decision support.
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/meetup-route-planner.jpg" alt="CampusMarket meetup route planner screenshot" width="100%" />
+      <br />
+      <strong>Meetup Route Planner</strong>
+      <br />
+      Handoff planning stores the place, route, ETA, and shared context instead of burying logistics in chat.
+    </td>
+  </tr>
+</table>
 
-1. Discovery starts in a filterable marketplace with saved searches, compare queues, and favorites.
-2. Selling happens through a guided studio with readiness checks, media handling, and AI-assisted listing improvement.
-3. Negotiation stays inside listing-linked chat threads with safety checks, offer flows, and hold support.
-4. Handoffs move into structured meetup scheduling with place search, route persistence, and two-party confirmation.
-5. Safety continues after the transaction through reporting, moderation actions, evidence exports, and analytics.
+These screenshots highlight the product direction more accurately than abstract graphics:
+
+- a role-aware dashboard that acts like a real product workspace
+- a browse experience shaped around compare, shortlist, and saved discovery flows
+- a distinctive meetup planner with campus routing and persisted route context
 
 ## Why This Project Stands Out
 
@@ -72,10 +90,6 @@ This workflow is the heart of the product:
 | Platform signals | Notification inboxes, saved filters, buyer and seller analytics, trust scores, profile completeness, traction metrics |
 
 ## Architecture
-
-<p align="center">
-  <img src="docs/assets/readme/system-architecture.svg" alt="CampusMarket architecture diagram" width="100%" />
-</p>
 
 ### Frontend
 
