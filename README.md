@@ -52,20 +52,67 @@ Screens below are captured from the actual application UI.
       Discovery includes saved searches, compare queues, intent browsing, and listing-first decision support.
     </td>
     <td align="center" width="33%">
+      <img src="docs/assets/readme/listing-detail.jpg" alt="CampusMarket listing detail screenshot" width="100%" />
+      <br />
+      <strong>Listing Detail</strong>
+      <br />
+      Detailed listing context includes trust signals, seller profile cues, and action-oriented transaction controls.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/saved-items.jpg" alt="CampusMarket saved items screenshot" width="100%" />
+      <br />
+      <strong>Saved Items</strong>
+      <br />
+      Shortlisted listings stay connected to compare, cart, and follow-up actions instead of becoming dead bookmarks.
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/messages.jpg" alt="CampusMarket messages screenshot" width="100%" />
+      <br />
+      <strong>Messages</strong>
+      <br />
+      Chat, offers, and meetup coordination stay tied to the listing so negotiation remains structured and auditable.
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/support.jpg" alt="CampusMarket support screenshot" width="100%" />
+      <br />
+      <strong>Support and Safety</strong>
+      <br />
+      Policy guidance, safety workflows, and escalation paths are surfaced as part of the product, not an afterthought.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/meetups.jpg" alt="CampusMarket meetups screenshot" width="100%" />
+      <br />
+      <strong>Meetups</strong>
+      <br />
+      Handoff scheduling captures mode, time, place, and confirmation state in a dedicated workflow.
+    </td>
+    <td align="center" width="33%">
       <img src="docs/assets/readme/meetup-route-planner.jpg" alt="CampusMarket meetup route planner screenshot" width="100%" />
       <br />
       <strong>Meetup Route Planner</strong>
       <br />
       Handoff planning stores the place, route, ETA, and shared context instead of burying logistics in chat.
     </td>
+    <td align="center" width="33%">
+      <img src="docs/assets/readme/notifications.jpg" alt="CampusMarket notifications screenshot" width="100%" />
+      <br />
+      <strong>Notifications</strong>
+      <br />
+      Notification lanes and preference controls keep marketplace updates organized by buying, selling, and safety context.
+    </td>
   </tr>
 </table>
 
-These screenshots highlight the product direction more accurately than abstract graphics:
+These screenshots show that the project is broader than a marketplace homepage:
 
-- a role-aware dashboard that acts like a real product workspace
-- a browse experience shaped around compare, shortlist, and saved discovery flows
-- a distinctive meetup planner with campus routing and persisted route context
+- browse, shortlist, listing-detail, and follow-up flows are all implemented
+- messaging, safety, and support have dedicated product surfaces
+- meetup planning is treated as a first-class workflow with route context
+- notifications and account-state management are visible parts of the product system
 
 ## Why This Project Stands Out
 
