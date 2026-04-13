@@ -13,7 +13,6 @@ It combines a custom Next.js frontend, a TypeScript + Express backend, Supabase-
 - `supabase/migrations/`: SQL migrations for marketplace schema and feature rollout.
 - `scripts/`: PowerShell and shell helpers for validation, setup, and local workflow support.
 - `docs/`: runbooks, model notes, and implementation guidance.
-- Root docs like `ROADMAP.md`, `PRODUCT_BLUEPRINT.md`, and `TECHNICAL_OVERVIEW.md`: product direction, architecture, and execution context.
 
 ## Core product scope
 
@@ -119,15 +118,14 @@ npm run build
 
 - This repo intentionally ignores `.env`, `frontend-v2/.env.local`, `node_modules`, `.next`, `dist`, logs, and local agent/tooling folders.
 - The frontend rewrites `/api/backend/*` to the backend base URL configured by `UNIKART_BACKEND_URL`.
-- The repo includes Supabase migrations, product docs, and workflow scripts alongside the application code.
+- The repo includes Supabase migrations and workflow scripts alongside the application code.
 
 ## Suggested flow for contributors
 
-1. Read `ROADMAP.md` and `PRODUCT_BLUEPRINT.md`.
-2. Configure local env files from the provided examples.
-3. Run backend and frontend in separate terminals.
-4. Apply Supabase migrations before testing data-dependent flows.
-5. Use the scripts in `scripts/` and `docs/runbook.md` for validation and debugging.
+1. Configure local env files from the provided examples.
+2. Run backend and frontend in separate terminals.
+3. Apply Supabase migrations before testing data-dependent flows.
+4. Use the scripts in `scripts/` and `docs/runbook.md` for validation and debugging.
 
 ## Status
 
