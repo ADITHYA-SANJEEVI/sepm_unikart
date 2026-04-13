@@ -384,7 +384,3 @@ CampusMarket is an actively evolving MVP codebase. The repository already demons
 - payment flow completion and post-transaction dispute handling
 - image optimization and media-processing pipeline upgrades
 - deeper recommendation and search relevance features
-
----
-
-If you are reviewing this project as a technical artifact, the most important takeaway is this: it demonstrates the ability to design and implement a real product system across frontend, backend, data, integrations, safety, and operator tooling rather than only isolated course-level features.
