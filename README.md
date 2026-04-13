@@ -120,13 +120,6 @@ npm run build
 - The frontend rewrites `/api/backend/*` to the backend base URL configured by `UNIKART_BACKEND_URL`.
 - The repo includes Supabase migrations and workflow scripts alongside the application code.
 
-## Suggested flow for contributors
-
-1. Configure local env files from the provided examples.
-2. Run backend and frontend in separate terminals.
-3. Apply Supabase migrations before testing data-dependent flows.
-4. Use the scripts in `scripts/` and `docs/runbook.md` for validation and debugging.
-
 ## Status
 
 This repository is an actively evolving MVP codebase for CampusMarket, with the product direction centered on trusted campus resale, structured discovery, and safety-aware local transactions.
