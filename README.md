@@ -1,8 +1,8 @@
-# UniKart
+# CampusMarket
 
 Campus commerce without the sketchiness.
 
-UniKart is a campus-first secondhand marketplace built for SRM KTR students to buy, sell, chat, schedule meetups, and move listings through a safer, more structured workflow than random WhatsApp groups or public resale pages.
+CampusMarket is a campus-first secondhand marketplace built for SRM KTR students to buy, sell, chat, schedule meetups, and move listings through a safer, more structured workflow than random WhatsApp groups or public resale pages.
 
 It combines a custom Next.js frontend, a TypeScript + Express backend, Supabase-backed data flows, and an AI-assisted moderation/enrichment layer aimed at making local student commerce feel fast, trustworthy, and actually usable.
 
@@ -129,4 +129,4 @@ npm run build
 
 ## Status
 
-This repository is an actively evolving MVP codebase for UniKart, with the product direction centered on trusted campus resale, structured discovery, and safety-aware local transactions.
+This repository is an actively evolving MVP codebase for CampusMarket, with the product direction centered on trusted campus resale, structured discovery, and safety-aware local transactions.
