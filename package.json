@@ -1,0 +1,53 @@
+{
+  "name": "sepm_unikart",
+  "version": "1.0.0",
+  "description": "UniKart MVP",
+  "main": "dist/backend/server.js",
+  "scripts": {
+    "dev": "tsx backend/src/server.ts",
+    "dev:backend": "tsx backend/src/server.ts",
+    "dev:backend:compiled": "npm.cmd run build:backend && node dist/backend/server.js",
+    "dev:frontend": "cd frontend-v2 && next dev --webpack -p 3000",
+    "dev:frontend:v2": "cd frontend-v2 && next dev --webpack -p 3001",
+    "build": "npm.cmd run build:backend && npm.cmd run build:frontend:v2",
+    "build:backend": "tsc",
+    "build:frontend": "cd frontend-v2 && next build",
+    "build:frontend:v2": "cd frontend-v2 && next build",
+    "start": "node dist/backend/server.js",
+    "start:backend": "node dist/backend/server.js",
+    "start:frontend": "cd frontend-v2 && next start -p 3000",
+    "start:frontend:v2": "cd frontend-v2 && next start -p 3001",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "unikart",
+    "marketplace",
+    "backend",
+    "supabase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "leaflet": "^1.9.4",
+    "next": "^16.2.1",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "swr": "^2.4.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

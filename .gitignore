@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+frontend-v2/node_modules/
+
+# Build output
+dist/
+frontend-v2/.next/
+frontend-v2/out/
+coverage/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+frontend-v2/.env.local
+frontend-v2/.env.*
+!frontend-v2/.env.local.example
+
+# Logs and runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+frontend-v2/build.log
+*.pid
+*.seed
+
+# Local tooling and agent metadata
+.agent/
+.agents/
+.gemini/
+.gsd/
+.sixth/
+tmp-codex-home/
+tmp-codex-home2/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
